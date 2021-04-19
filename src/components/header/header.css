@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 30px 15px;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+  font: normal 700 2rem/1.2 "Playfair Display", Georgia serif;
+}
+
+.shopping-cart {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-cart:hover {
+  text-decoration: none;
+}
+
+.cart-icon {
+  display: inline-block;
+  margin-right: 5px;
+}
